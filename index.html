@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="game">
+        
+        <h1 id="action"> Choisissez un héro !</h1>
+
+        <div id="levels">
+            <div class="block level1">
+                <img src="./img/level1.png" alt="" title="" >
+                <p><span>Niveau</span> Facile</p>
+                <p><span>Nombre de rencontres</span> : 2</p>
+            </div>
+            <div class="block level2">
+                <img src="./img/level2.png" alt="" title="" >
+                <p><span>Niveau</span> Moyen</p>
+                <p><span>Nombre de rencontres</span> : 4</p>
+            </div>
+            <div class="block level3">
+                <img src="./img/level3.png" alt="" title="" >
+                <p><span>Niveau</span> Impossible</p>
+                <p><span>Nombre de rencontres</span> : 6</p>
+            </div>
+        </div>
+        
+        <div id="heroes">
+            <div class="block hero1">
+                <img src="./img/Seong_Gi-hun.webp" alt="" title="" >
+                <p><span>Nom</span> : Seong Gi-hun</p>
+                <p><span>Billes de départ</span> : 10</p>
+                <p> <span>Malus</span> : 3</p>
+                <p><span>Bonus</span> : 1</p>
+            </div>
+            <div class="block hero2">
+                <img src="./img/Kang_Sae-byeok.webp" alt="" title="" >
+                <p><span>Nom</span> : Kang Sae-byeok</p>
+                <p><span>Billes de départ</span> : 15</p>
+                <p> <span>Malus</span> : 2</p>
+                <p><span>Bonus</span> : 2</p>
+            </div>
+            <div class="block hero3">
+                <img src="./img/Sang-woo.webp" alt="" title="" >
+                <p><span>Nom</span> : Cho Sang-woo</p>
+                <p><span>Billes de départ</span> : 20</p>
+                <p> <span>Malus</span> : 1</p>
+                <p><span>Bonus</span> : 3</p>
+            </div>
+        </div>
+
+        <div id="enemies">
+            <div class="block enemy1">
+                <div class="cross cross-1"></div>
+                <div class="cross cross-2"></div>
+                <img src="./img/enemie1.jpg" alt="" title="" >
+                <p><span>Name :</span> Triangle</p>
+            </div>
+            <div class="block enemy2">
+                <div class="cross cross-1"></div>
+                <div class="cross cross-2"></div>
+                <img src="./img/enemie2.jpg" alt="" title="" >
+                <p><span>Name :</span> Round</p>
+            </div>
+            <div class="block enemy3">
+                <div class="cross cross-1"></div>
+                <div class="cross cross-2"></div>
+                <img src="./img/enemie3.jpg" alt="" title="" >
+                <p><span>Name :</span> Square</p>
+            </div>
+            <div class="block enemy4">
+                <div class="cross cross-1"></div>
+                <div class="cross cross-2"></div>
+                <img src="./img/enemie4.jpg" alt="" title="" >
+                <p><span>Name :</span> Snake</p>
+            </div>
+            <div class="block enemy5">
+                <div class="cross cross-1"></div>
+                <div class="cross cross-2"></div>
+                <img src="./img/enemie5.jpg" alt="" title="" >
+                <p><span>Name :</span> Witch</p>
+            </div>
+            <div class="block enemy6">
+                <div class="cross cross-1"></div>
+                <div class="cross cross-2"></div>
+                <img src="./img/enemie6.jpg" alt="" title="" >
+                <p><span>Name :</span> Boss</p>
+            </div>
+        </div>
+
+        <div id="choices">
+            <button class="even">Pair</button>
+            <button class="odd">Impair</button>
+        </div>
+
+        <div id="game-details">
+            <div id="score">
+                <p><span>Votre héros</span> : <span class="hero-name">x</span></p>
+                <p><span>Nombre de rencontres restantes</span> : <span class="remaining-encounters">x</span></p>
+                <p><span>Nombre de billes restantes</span> : <span class="remaining-marbles">x</span></p>
+            </div>
+            <div id="history">
+                <p> Historique : </p>
+            </div>
+        </div>
+
+        <div id="end">
+            <img id="loose" src="./img/loose.png" alt="" title="">
+            <img id="win" src="./img/win.png" alt="" title="">
+            <button id="replay">Rejouer la partie</button>
+        </div>
+        
+    </div>
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>
